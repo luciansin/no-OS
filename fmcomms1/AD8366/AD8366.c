@@ -86,6 +86,7 @@ int32_t ad8366_setup()
  *
  * @return Returns 0 in case of success or negative error code
 *******************************************************************************/
+
 int32_t ad8366_write(uint8_t chAgain, uint8_t chBgain)
 {
 	uint8_t bit				= 0;
