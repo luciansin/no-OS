@@ -60,6 +60,7 @@ struct ad8366_state
  *
  * @return Negative error code or 0 in case of success.
 *******************************************************************************/
+
 int32_t ad8366_setup()
 {
 	int32_t ret;
